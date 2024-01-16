@@ -1,7 +1,7 @@
 "use client"
 
 import { JudgeCard, PlayedCard, PlayerCard} from '@/components/Game/Cards'
-import { Scoreboard } from "@/components/Game/Scoreboard/Scoreboard";
+import { Scoreboard } from "@/components/Game/Scoreboard";
 import { useState } from 'react';
 
 const playersMock = [
@@ -11,7 +11,7 @@ const playersMock = [
 ]
 
 const cardsMock = [
-  {id: '1', text: "sexo"},
+  {id: '1', text: "teste"},
   {id: '2', text: "kkkkkk"},
   {id: '3', text: "azidea"},
 ]
